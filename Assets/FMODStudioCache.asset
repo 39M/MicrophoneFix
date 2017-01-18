@@ -13,14 +13,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EditorBanks:
   - {fileID: 114000010190836684}
-  - {fileID: 114000013432944618}
-  - {fileID: 114000010901178820}
+  - {fileID: 114000012281534776}
+  - {fileID: 114000013869755312}
   EditorEvents:
   - {fileID: 114000010519387544}
   - {fileID: 114000011426653302}
-  MasterBankRef: {fileID: 114000013432944618}
+  MasterBankRef: {fileID: 114000012281534776}
   StringsBankRef: {fileID: 114000010190836684}
-  stringsBankWriteTime: 636203691621377744
+  stringsBankWriteTime: 636203702640000000
   cacheVersion: 2
 --- !u!114 &114000010030241780
 MonoBehaviour:
@@ -129,8 +129,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Path: Assets/Audio\Master Bank.strings.bank
-  lastModified: 636203691621377744
+  Path: Assets/Audio/Master Bank.strings.bank
+  lastModified: 636203702640000000
   LoadResult: 0
   FileSizes:
   - Name: 
@@ -438,7 +438,7 @@ MonoBehaviour:
   Path: snapshot:/New Snapshot
   guid: 3926b236a5372a43ad4eea180a3eb7af
   Banks:
-  - {fileID: 114000013432944618}
+  - {fileID: 114000012281534776}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -1110,7 +1110,7 @@ MonoBehaviour:
   Path: event:/Music/bgm_MainScene_default
   guid: 1002010d234f604a9f66fbcc80e34759
   Banks:
-  - {fileID: 114000010901178820}
+  - {fileID: 114000013869755312}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -1750,6 +1750,25 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
+--- !u!114 &114000012281534776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: /Users/M/Documents/Work/Netease/Pangu/PM03/MicrophoneFix/Assets/Audio/Master
+    Bank.bank
+  lastModified: 636203702640000000
+  LoadResult: 0
+  FileSizes:
+  - Name: 
+    Value: 10630
+  Exists: 1
 --- !u!114 &114000012292363722
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1837,7 +1856,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: 
+  m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   Path: event:/Voice/Story/story_heiyiren_02
   guid: 8e07824da9d3da48a14ecd763062dd4a
@@ -1858,7 +1877,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: 
+  m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   Path: event:/FX/Battle/fx_Battle_lose
   guid: ccb972ac2ec27c4680f7b89f10707657
@@ -1879,7 +1898,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: 
+  m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   Path: event:/FX/Story/fx_Story_ZhuiSha2_wheelbreak
   guid: 41f3ae4456d55b4085d9f8b2796dffd3
@@ -2772,6 +2791,24 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
+--- !u!114 &114000013869755312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: /Users/M/Documents/Work/Netease/Pangu/PM03/MicrophoneFix/Assets/Audio/Music_bgm_MainScene_default.bank
+  lastModified: 636203702640000000
+  LoadResult: 0
+  FileSizes:
+  - Name: 
+    Value: 821472
+  Exists: 1
 --- !u!114 &114000013878210128
 MonoBehaviour:
   m_ObjectHideFlags: 0
