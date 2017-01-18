@@ -28,7 +28,7 @@ public class DemoGUI : MonoBehaviour {
 
 
 	void OnGUI() {
-		if (GUI.Button(new Rect(100, 100, 100, 50), !_started ? "Break" : "End")) {
+		if (GUI.Button(new Rect(100, 100, 400, 150), !_started ? "Break" : "End")) {
 
 			if (!_started) {
 				Break();
@@ -39,7 +39,7 @@ public class DemoGUI : MonoBehaviour {
 		}
 
 
-		if (GUI.Button(new Rect(100, 250, 100, 50), "Fix")) {
+		if (GUI.Button(new Rect(100, 400, 400, 150), "Fix")) {
 			iPhoneSpeaker.ForceToSpeaker();
 		}
 
